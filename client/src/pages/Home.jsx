@@ -13,7 +13,7 @@ function Home() {
       try {
 
         const { data } = await axios.get(
-          'https://neural-portfolio-api.onrender.com/api/projects'
+          'https://shuvojitbanik.onrender.com/api/projects'
         )
 
         setProjects(data)
